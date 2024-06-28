@@ -3,7 +3,7 @@
 # Build backend
 FROM golang:1.22.1-alpine AS builder
 # Add backend version
-ARG VERSION=${VERSION}
+#ARG VERSION=${VERSION}
 # Copy source filesi
 WORKDIR /app
 COPY . .
@@ -13,7 +13,7 @@ RUN go mod download && go build -o /momo-backend ./cmd/api
 # Run backend
 FROM alpine:3.19.1
 # Add backend version
-ARG VERSION=${VERSION}
+#ARG VERSION=${VERSION}
 WORKDIR /app
 RUN apk --no-cache add curl
 # Copy results file from builder
