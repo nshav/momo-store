@@ -7,7 +7,7 @@ URL Momo Store: https://pelmeny-for.fun
 - installed nginx, docker and docker-compose on this server
 
 ## Arcitecture
-![alt text]([https://storage.yandexcloud.net/momo-store-wallarm/architecture.png](https://storage.yandexcloud.net/momo-store-wallarm/architectire.jpg))
+![alt text](https://storage.yandexcloud.net/momo-store-wallarm/architectire.jpg)
 
 ## Deploying instruction
 1. Copy these files to your home path (or anywhere you want) on the server:
