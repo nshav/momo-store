@@ -18,9 +18,9 @@ internet -> NGINX on standalone server -> wallaby-node -> momo-frontend -> momo-
 ```bash
 vim docker-compose.yaml
 ...
-    volumes:
-      - "your_path/default.conf:/etc/nginx/conf.d/default.conf"
-    networks:
+volumes:
+  - "your_path/default.conf:/etc/nginx/conf.d/default.conf"
+networks:
 ...
 ```
 3. Configure your .env file. Add your WALLARM_API_TOKEN and WALLARM_API_HOST (you can create and find it in this instruction: https://docs.wallarm.com/admin-en/installation-docker-en/)
