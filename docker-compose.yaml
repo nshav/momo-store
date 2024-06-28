@@ -1,0 +1,29 @@
+version: "3.3"
+
+services:
+  backend:
+    image: momo-backend:latest
+    container_name: momo-backend
+    restart: always
+    networks:
+      - app-network
+  frontend:
+    image: momo-frontend:latest
+    container_name: momo-frontend
+    restart: always
+    volumes:
+      - "/home/momo/frontend/default.conf:/etc/nginx/conf.d/default.conf"
+    networks:
+      - app-network
+  wallarm-node:
+    image: wallarm/node:4.10.7-rc4
+    container_name: wallarm-node
+    restart: always
+    env_file: .env
+    ports:
+      - "127.0.0.1:8080:80" 
+    networks:
+      - app-network
+
+networks:
+  app-network:
