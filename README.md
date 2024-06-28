@@ -42,3 +42,8 @@ sudo ln -s /etc/nginx/sites-available/momo-store /etc/nginx/sites-enabled/
 sudo systemctl restart nginx
 ```
 9. Go to browser for checkin result.
+10. If you have domain name, you can make certificate for using https:
+```bash
+sudo apt-get install certbot python3-certbot-nginx
+sudo certbot --nginx -d your-domain.com
+```
