@@ -10,7 +10,7 @@
 - installed nginx, docker and docker-compose on this server
 
 ## Arcitecture
-![alt text](https://storage.yandexcloud.net/momo-store-wallarm/architecture.jpg)
+![alt text](https://storage.yandexcloud.net/momo-store-wallarm/architecture.png)
 
 ## Deploying instruction
 1. Connect via ssh to your server.
