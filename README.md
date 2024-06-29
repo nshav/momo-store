@@ -11,6 +11,7 @@
 
 ## Arcitecture
 ![alt text](https://storage.yandexcloud.net/momo-store-wallarm/architecture.jpg)
+![alt text](https://storage.yandexcloud.net/momo-store-wallarm/architecture_test.jpg)
 
 ## Deploying instruction
 1. Connect via ssh to your server.
