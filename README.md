@@ -10,7 +10,6 @@
 - installed nginx, docker and docker-compose on this server
 
 ## Arcitecture
-![alt text](https://storage.yandexcloud.net/momo-store-wallarm/architecture.jpg)
 ![alt text](https://storage.yandexcloud.net/momo-store-wallarm/architecture_test.jpg)
 
 ## Deploying instruction
