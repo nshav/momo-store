@@ -11,7 +11,6 @@
 
 ## Arcitecture
 ![alt text](https://storage.yandexcloud.net/momo-store-wallarm/architecture.jpg)
-<img src="https://storage.yandexcloud.net/momo-store-wallarm/architecture.jpg" style="filter: invert(1);">
 
 ## Deploying instruction
 1. Connect via ssh to your server.
