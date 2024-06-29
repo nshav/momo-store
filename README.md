@@ -1,6 +1,9 @@
 # Momo Store aka Пельменная №2
 
 URL Momo Store: https://pelmeny-for.fun
+Momo Store frontend images: https://hub.docker.com/repository/docker/nikshav/momo-frontend/general
+Momo Store backend images: https://hub.docker.com/repository/docker/nikshav/momo-backend/general 
+Wallarm Node image: https://hub.docker.com/r/wallarm/node
 
 ## Requirments
 - standalone server (based on ubuntu server for example) with internet access
