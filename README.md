@@ -9,7 +9,7 @@
 - standalone server (based on ubuntu server for example) with internet access
 - installed nginx, docker and docker-compose on this server
 
-## Arcitecture
+## Architecture
 ![alt text](https://storage.yandexcloud.net/momo-store-wallarm/architecture_test.jpg)
 
 ## Deploying instruction
